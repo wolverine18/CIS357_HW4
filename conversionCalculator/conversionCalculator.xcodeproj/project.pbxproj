@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331EB3F323F5FEB2000AAFCD /* ConversionCalcTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331EB3F223F5FEB2000AAFCD /* ConversionCalcTextField.swift */; };
 		3370DE8E23EA226300D5B9DD /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3370DE8D23EA226200D5B9DD /* DecimalMinusTextField.swift */; };
 		3370DE9023EA2C9100D5B9DD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3370DE8F23EA2C9100D5B9DD /* SettingsViewController.swift */; };
 		33BF1BAF23EB72B3004C04F2 /* UnitsAndModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF1BAE23EB72B3004C04F2 /* UnitsAndModes.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		331EB3F223F5FEB2000AAFCD /* ConversionCalcTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalcTextField.swift; sourceTree = "<group>"; };
 		3370DE8D23EA226200D5B9DD /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
 		3370DE8F23EA2C9100D5B9DD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		33BF1BAE23EB72B3004C04F2 /* UnitsAndModes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitsAndModes.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FA674AE123E4D5F3004E349C /* LaunchScreen.storyboard */,
 				FA674AE423E4D5F3004E349C /* Info.plist */,
 				3370DE8F23EA2C9100D5B9DD /* SettingsViewController.swift */,
+				331EB3F223F5FEB2000AAFCD /* ConversionCalcTextField.swift */,
 			);
 			path = conversionCalculator;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331EB3F323F5FEB2000AAFCD /* ConversionCalcTextField.swift in Sources */,
 				3370DE8E23EA226300D5B9DD /* DecimalMinusTextField.swift in Sources */,
 				FA674ADB23E4D5D0004E349C /* ViewController.swift in Sources */,
 				33BF1BAF23EB72B3004C04F2 /* UnitsAndModes.swift in Sources */,
