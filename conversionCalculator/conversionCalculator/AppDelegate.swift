@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navAppearance.tintColor = FOREGROUND_COLOR
         navAppearance.isTranslucent = false
         navAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        
        return true
     }
 

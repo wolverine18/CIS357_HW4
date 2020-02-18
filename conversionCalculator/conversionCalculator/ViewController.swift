@@ -131,6 +131,11 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
         }
         return toVal
     }
+    
+    
+    override var preferredStatusBarStyle :UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
 }
 
 extension ViewController : UITextFieldDelegate {
@@ -146,3 +151,4 @@ extension ViewController : UITextFieldDelegate {
         return true
     }
 }
+

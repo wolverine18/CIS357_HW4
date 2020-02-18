@@ -116,6 +116,11 @@ extension SettingsViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         }
         
     }
+    
+    
+    override var preferredStatusBarStyle :UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
 }
 
 extension UINavigationController{
