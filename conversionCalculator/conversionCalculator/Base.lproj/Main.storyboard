@@ -141,7 +141,7 @@
             </objects>
             <point key="canvasLocation" x="-1504.3478260869567" y="-433.25892857142856"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Settings-->
         <scene sceneID="KZC-OM-iAK">
             <objects>
                 <viewController id="GZo-td-H5Y" customClass="SettingsViewController" customModule="conversionCalculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -206,7 +206,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="u9O-uY-yxO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ihw-Tt-DdK">
+                    <navigationItem key="navigationItem" title="Settings" id="Ihw-Tt-DdK">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="xmB-gh-bSD">
                             <connections>
                                 <action selector="cancelClick:" destination="GZo-td-H5Y" id="yUM-BU-qpK"/>
